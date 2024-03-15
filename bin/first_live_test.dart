@@ -13,7 +13,6 @@ main(){
 
   print('\nFruit Details After Applying ${discountPercentage.toInt()}% Discount:');
   displayFruitDetails(fruits); // call the function for showing Fruit details after 10% discount;
-
 }
 
 class Fruit{
