@@ -12,7 +12,7 @@ main(){
   applyPriceDiscount(fruits, discountPercentage);
 
   print('\nFruit Details After Applying ${discountPercentage.toInt()}% Discount:');
-  displayFruitDetails(fruits); // call the function for showing Fruit details after 10% discount;
+  displayFruitDetails(fruits); // call the function for showing Fruit details after 10% discount it uses the latest fruit.price value;
 }
 
 class Fruit{
